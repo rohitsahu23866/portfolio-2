@@ -13,7 +13,7 @@ const Hero = () => {
                 <span className='primary-color'>
                     I'm a 
                 </span> <br/>
-                <TypeAnimation sequence={["Frontend Dev",1000,"Webdesigner",1000,"DataAnalyst",1000,    
+                <TypeAnimation sequence={["Frontend Dev",1000,"Web designer",1000,"Software Engineer",1000,    
                 ]}
                 wrapper='span'
                 speed={50}
@@ -26,9 +26,7 @@ const Hero = () => {
             </p>
 
             <div className='my-8'>
-                <a href="/" className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white'>
-                    Download Resume
-                </a>
+               
                 <a href="#Contact" className='px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-gradient-to-br  from-orange-500 to-pink-500 text-white hover:border-none'>
                     Contact
                 </a>
