@@ -17,9 +17,14 @@ const About = () => {
               />
             </h2>
             <p className='text-base lg:text-lg'>
-              Driven by a passion for technology and a love for socializing, I hold a BSc in Mathematical Sciences from PGDAV College, University of Delhi. My technical expertise spans DSA (C++), React.js, MySQL, JavaScript, and Python. I've developed projects like an Algorithm Visualizer, a MERN stack portfolio website, and a Flappy Bird game using Pygame.
-              I also excel in data analysis with Pandas and NumPy, and I'm skilled in writing efficient SQL queries.
-              Beyond the tech realm, I'm a coffee enthusiast and a dedicated gym-goer. My mission is to make "Hello World" as fundamental as the alphabet, simplifying tech concepts to inspire the next generation. Let's connect and collaborate on creating impactful innovations.
+              
+
+              I am Susheel Sahu, a passionate front-end software developer based in New Delhi, India, with a strong foundation in React.js, JavaScript, and Tailwind CSS. Currently pursuing my B.Sc. in Mathematical Science with a Computer Science major from P.G.D.A.V College, University of Delhi, I am driven by a desire to create dynamic, responsive, and user-friendly web applications.
+              Throughout my academic and professional journey, I have developed a knack for turning complex problems into elegant, scalable solutions. My expertise lies in crafting seamless user experiences through modern UI principles and efficient state management. I thrive on the challenge of designing intuitive interfaces that not only look great but also function flawlessly across all devices.
+              My portfolio includes a comprehensive gym website and a versatile video downloader, both of which demonstrate my ability to manage state, handle user interactions in real-time, and utilize a wide range of technologies such as Flask for backend processing and React.js for front-end development. These projects reflect my commitment to delivering high-quality, performant applications that meet user needs.
+              Beyond my technical skills, I am a dedicated team player with strong problem-solving abilities and a keen eye for detail. I have actively contributed as a Core Member and Web Developer at the Google Developer Student Club, where I honed my collaboration and leadership skills. My achievements, including securing top positions in competitive coding events, underscore my competitive spirit and determination to excel.
+              I am constantly seeking opportunities to learn and grow, whether through coursework, personal projects, or certifications. My portfolio website showcases a variety of projects that highlight my skills and creativity.
+              I am excited to bring my technical expertise, creative problem-solving, and passion for web development to new challenges and opportunities. Let’s connect and explore how I can contribute to your team and help bring your projects to life.
             </p>
           </div>
         </div>
