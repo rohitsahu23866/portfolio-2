@@ -15,17 +15,17 @@ const Skills = () => {
 
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={css} alt="" width={100} height={100} />
-            <p className='mt-2'>CSS</p>
+            <p className='mt-2'>Node.js</p>
         </div>
 
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={html} alt="" width={100} height={100} />
-            <p className='mt-2'>HTML</p>
+            <p className='mt-2'>MongoDB</p>
         </div>
 
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={javascript} alt="" width={100} height={100} />
-            <p className='mt-2'>JavaScript</p>
+            <p className='mt-2'>Express.js</p>
         </div>
 
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
