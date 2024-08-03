@@ -13,7 +13,7 @@ const Hero = () => {
                 <span className='primary-color'>
                     I'm a 
                 </span> <br/>
-                <TypeAnimation sequence={["Frontend Dev",1000,"Web designer",1000,"Software Engineer",1000,    
+                <TypeAnimation sequence={["Fullstack web Dev",1000,"Web designer",1000,"Software Engineer",1000,    
                 ]}
                 wrapper='span'
                 speed={50}
@@ -22,7 +22,7 @@ const Hero = () => {
             </h1>
 
             <p className='text-white sm:text-lg my-6 lg:text-xl'>
-                Hi my name is Susheel Sahu and Im a Frontend Developer.
+                Hi my name is Susheel Sahu and Im a Fullstack web developer .
             </p>
 
             <div className='my-8'>

@@ -10,7 +10,7 @@ const projects = [
   // Add other projects similarly
   { image: proj2, link: 'link-to-proj2' },
   { image: proj3, link: 'https://video-downloader-jk4hp6lm9-susheel-sahus-projects.vercel.app/' },
-  { image: proj4, link: 'https://calculator-nine-blush-81.vercel.app/' },
+  { image: proj4, link: 'https://notes-app-frontend-pquo.onrender.com/' },
 ];
 
 const Work = () => {

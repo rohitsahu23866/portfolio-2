@@ -17,9 +17,8 @@ const About = () => {
               />
             </h2>
             <p className='text-base lg:text-lg'>
-              
-
-              I am Susheel Sahu, a passionate front-end software developer based in New Delhi, India, with a strong foundation in React.js, JavaScript, and Tailwind CSS. Currently pursuing my B.Sc. in Mathematical Science with a Computer Science major from P.G.D.A.V College, University of Delhi, I am driven by a desire to create dynamic, responsive, and user-friendly web applications.
+  
+              I am Susheel Sahu, a passionate fullstack web developer based in New Delhi, India, with a strong foundation in React.js, JavaScript, and Tailwind CSS. Currently pursuing my B.Sc. in Mathematical Science with a Computer Science major from P.G.D.A.V College, University of Delhi, I am driven by a desire to create dynamic, responsive, and user-friendly web applications.
               Throughout my academic and professional journey, I have developed a knack for turning complex problems into elegant, scalable solutions. My expertise lies in crafting seamless user experiences through modern UI principles and efficient state management. I thrive on the challenge of designing intuitive interfaces that not only look great but also function flawlessly across all devices.
               My portfolio includes a comprehensive gym website and a versatile video downloader, both of which demonstrate my ability to manage state, handle user interactions in real-time, and utilize a wide range of technologies such as Flask for backend processing and React.js for front-end development. These projects reflect my commitment to delivering high-quality, performant applications that meet user needs.
               Beyond my technical skills, I am a dedicated team player with strong problem-solving abilities and a keen eye for detail. I have actively contributed as a Core Member and Web Developer at the Google Developer Student Club, where I honed my collaboration and leadership skills. My achievements, including securing top positions in competitive coding events, underscore my competitive spirit and determination to excel.
