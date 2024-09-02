@@ -1,40 +1,38 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
-    const [nav,setNav] = useState(false)
+    const [nav, setNav] = useState(false);
 
     const handleNav = () => {
-        setNav(!nav)
-    }
+        setNav(!nav);
+    };
 
     return (
-        <div className='bg-black h-[100px] text-gray-400 max-w-[1200px] mx-auto flex justify-between items-center'>
-
-            <h1 className='text-3xl font-bold primary-color ml-4'> Susheel sahu</h1>
-            <ul className='hidden md:flex'>
-                <li className='p-5'><a href="#About">About</a></li>
-                <li className='p-5'><a href="#Work">Work</a></li>
-                <li className='p-5'><a href="#Contact">Contact</a></li>
+        <div className="navbar max-w-[1200px] mx-auto flex justify-between items-center px-4 py-4">
+            <h1 className="text-4xl font-extrabold text-gray-800">Susheel Sahu</h1>
+            <ul className="hidden md:flex space-x-8">
+                <li className="gradient-bubble"><a href="#About">About</a></li>
+                <li className="gradient-bubble"><a href="#Work">Work</a></li>
+                <li className="gradient-bubble"><a href="#Contact">Contact</a></li>
             </ul>
 
-
-            <div onClick={handleNav} className='block md:hidden mr-6'>
-                {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
+            {/* Mobile Menu Toggle */}
+            <div onClick={handleNav} className="block md:hidden">
+                {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
             </div>
 
-            <div className={nav ? 'z-10 fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500' : 'fixed left-[-100%]'}>
-                <h1 className='text-3xl primary-color m-4'>Susheel Sahu</h1>
-                <ul className='p-8 text-2xl'>
-                    <li className='p-2'><a href="#Home">Home</a></li>
-                    <li className='p-2'><a href="#About">About</a></li>
-                    <li className='p-2'><a href="#Contact">Contact</a></li>
+            {/* Mobile Menu */}
+            <div className={nav ? 'fixed z-20 h-full w-[60%] bg-white shadow-lg left-0 top-0 p-6 ease-in-out duration-500' : 'fixed left-[-100%] top-0'}>
+                <h1 className="text-2xl font-semibold text-gray-800 mb-6">Susheel Sahu</h1>
+                <ul className="flex flex-col space-y-6">
+                    <li className="gradient-bubble"><a href="#Home" className="text-gray-800 hover:text-gray-600">Home</a></li>
+                    <li className="gradient-bubble"><a href="#About" className="text-gray-800 hover:text-gray-600">About</a></li>
+                    <li className="gradient-bubble"><a href="#Contact" className="text-gray-800 hover:text-gray-600">Contact</a></li>
                 </ul>
-
-
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Navbar;

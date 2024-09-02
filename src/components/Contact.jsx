@@ -1,60 +1,54 @@
 import React from 'react'
 
 const Contact = () => {
-  return (
-    <div className='max-w-[1200px] mx-auto bg-black sm:py-20 p-5' id='Contact'>
-        <div className='text-center'>
-            <h2 className='text-4xl font-bold leading-tight primary-color'>Contact Me</h2>
-        </div>
-
-        <div className='max-w-[800px] mx-auto'>
-            <div className='mt-6 bg-[#161616] rounded-xl'>
-                <div className='p-10'>
-
-                <form action="https://getform.io/f/brolozva" method='POST'>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4'>
-                        <div>
-                            <div className='mt-2.5 relative'>
-                                <input type="text" name="name" id="" placeholder='Your Name' 
-                                className='bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border 
-                                border-gray-700 rounded-md focus:outline-none focus:border-pink-600'/>
-                            </div>
-                        </div>
-
-                        <div >
-                            <div className='mt-2.5 relative'>
-                                <input type="email" name="email" id="" placeholder='Your Email' 
-                                className='bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border 
-                                border-gray-700 rounded-md focus:outline-none focus:border-pink-600'/>
-                            </div>
-                        </div>
-
-                        <div >
-                            <div className='mt-2.5 relative'>
-                                <textarea name="message" id="" placeholder='Your Message' 
-                                className='bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border 
-                                border-gray-700 rounded-md focus:outline-none focus:border-pink-600' rows="4">
-                                </textarea>
-                            </div>
-                        </div>
-
-                        <div className='sm:col-span-2'>
-                            <button type="submit" className='text-xl w-full p-4 mt-2 font-semibold text-white bg-primary-color rounded-md'>
-                                Send
-                            </button>
-                        </div>
-                    </div>
-                </form>
-                
-                
-
-                </div>
-
+    return (
+        <div className="max-w-[1200px] mx-auto bg-white py-20 px-6" id="Contact">
+            <div className="text-center">
+                <h2 className="text-4xl font-bold text-gray-800">Contact Me</h2>
             </div>
-
+            <div className="max-w-[800px] mx-auto mt-8">
+                <div className="bg-gray-100 p-10 rounded-lg shadow-md">
+                    <form action="https://getform.io/f/brolozva" method="POST">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    placeholder="Your Name"
+                                    className="bg-white w-full p-4 text-gray-800 border border-gray-300 rounded-lg focus:outline-none focus:border-gray-400"
+                                />
+                            </div>
+                            <div>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="Your Email"
+                                    className="bg-white w-full p-4 text-gray-800 border border-gray-300 rounded-lg focus:outline-none focus:border-gray-400"
+                                />
+                            </div>
+                            <div className="sm:col-span-2">
+                                <textarea
+                                    name="message"
+                                    placeholder="Your Message"
+                                    className="bg-white w-full p-4 text-gray-800 border border-gray-300 rounded-lg focus:outline-none focus:border-gray-400"
+                                    rows="4"
+                                />
+                            </div>
+                            <div className="sm:col-span-2">
+                                <button
+                                    type="submit"
+                                    className="w-full p-4 mt-4 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition"
+                                >
+                                    Send
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-    </div>
-  )
-}
+    );
+};
+
 
 export default Contact;
