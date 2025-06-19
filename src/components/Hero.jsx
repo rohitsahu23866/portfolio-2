@@ -1,35 +1,26 @@
-import React from 'react';
-import heroImage from '../assets/profilepic7.png';
-import { TypeAnimation } from 'react-type-animation';
+import React from "react";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] mx-auto py-16 bg-white">
-      <div className="flex justify-center items-center sm:col-span-1 col-span-1">
+    <div className="flex justify-center px-6 py-10">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-10 text-center md:text-left w-full md:w-[650px]">
+        {/* Profile Image */}
         <img
-          src={heroImage}
-          alt="hero image"
-          className="rounded-full custom-animation w-[250px] md:w-[300px]"
+          className="w-36 h-36 md:w-44 md:h-44 rounded-full shadow-[0_0_5px_2px_rgb(0,191,255)]"
+          src="/src/assets/pic.png"
+          alt="Profile"
         />
-      </div>
-      <div className="col-span-1 sm:col-span-2 flex flex-col justify-center items-center px-5 text-center sm:text-left">
-        <h1 className="text-black text-3xl md:text-5xl font-bold">I'm a</h1> <br />
-        <h1 className="primary-color text-4xl md:text-6xl font-bold">
-          <TypeAnimation
-            sequence={["Web Developer", 1000, "Software Engineer ", 1000, "Web Designer", 1000]}
-            wrapper="span"
-            speed={50}
-            repeat={Infinity}
-            className="primary-color"
-          />
-        </h1>
-        <p className="text-gray-600 text-lg md:text-xl my-6">
-          Greetings! My name is Susheel Sahu and I'm a Fullstack Web Developer.
-        </p>
-        <div className="flex justify-center items-center">
-          <a href="#Contact" className="c-style px-6 py-3 transition">
-            Contact
-          </a>
+
+        {/* Text Section */}
+        <div className="flex flex-col">
+          <h1 className="text-3xl md:text-4xl font-semibold text-gray-700 dark:text-gray-300">
+            Hi, I'm <span className="text-blue-500">Susheel Sahu</span>
+            <span className="inline-block waving-hand">👋</span>
+          </h1>
+
+          <h1 className="text-4xl md:text-6xl font-bold mt-1 text-gray-900 dark:text-gray-200">
+            Full-Stack Web Developer
+          </h1>
         </div>
       </div>
     </div>
